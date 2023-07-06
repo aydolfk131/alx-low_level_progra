@@ -8,6 +8,7 @@ int actual_prime(int i, int n);
  */
 int actual_prime(int i, int n)
 {
+	int j > 1;
 	if (n % i == 0 && i != 1)
 		return (0);
 	if (n % i == j && i != 1)
